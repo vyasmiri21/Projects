@@ -6,7 +6,7 @@ body, html {
 
 /* Top bar for heading and download */
 .download-btn-fixed {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ body, html {
 
 /* Sidebar 2x2 grid */
 .generator-sidebar {
-  width: 900px;
+  width: 40%;
   background: #f8f8fa;
   border-right: 1px solid #ccc;
   padding: 36px 32px 48px 36px;
