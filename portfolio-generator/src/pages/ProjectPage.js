@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Portfolio Generator",
     description: "Generate and download resumes.",
-    link: "/Projects/project/resume",
+    link: "/project/resume",
     tech: ["React", "FastAPI", "Azure"],
   }
 ];
@@ -18,9 +18,9 @@ const ProjectsPage = () => {
     <div className={styles.homeContainer}>
       <div className={styles.navbar}>
         <div className={styles.buttons}>
-          <button onClick={() => navigate("/Projects/about")}>About</button>
-          <button onClick={() => navigate("/Projects/project")}>Projects</button>
-          <button onClick={() => navigate("/Projects")}>Contact</button>
+            <button onClick={() => navigate("/about")}>About</button>
+            <button onClick={() => navigate("/project")}>Projects</button>
+            <button onClick={() => navigate("/")}>Contact</button>
         </div>
       </div>
       <div className={styles.contentContainer}>
@@ -43,7 +43,7 @@ const ProjectsPage = () => {
                 </div>
                 <button
                   className={styles.cardButton}
-                  onClick={() => window.open(project.link, "_blank")}
+                  onClick={() => window.open(`/#${project.link}`, "_blank")}
                 >
                   Open Project
                 </button>
