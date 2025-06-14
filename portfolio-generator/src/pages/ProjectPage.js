@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Portfolio Generator",
     description: "Generate and download resumes.",
-    link: "/projects/resume",
+    link: "/Projects/resume",
     tech: ["React", "FastAPI", "Azure"],
   }
 ];
