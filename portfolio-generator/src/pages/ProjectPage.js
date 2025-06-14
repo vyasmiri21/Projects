@@ -43,7 +43,7 @@ const ProjectsPage = () => {
                 </div>
                 <button
                   className={styles.cardButton}
-                  onClick={() => window.open(`/#${project.link}`, "_blank")}
+                  onClick={() => window.open(project.link, "_blank")}
                 >
                   Open Project
                 </button>
