@@ -18,9 +18,9 @@ const ProjectsPage = () => {
     <div className={styles.homeContainer}>
       <div className={styles.navbar}>
         <div className={styles.buttons}>
-          <button onClick={() => navigate("/")}>About</button>
-          <button onClick={() => navigate("/projects")}>Projects</button>
-          <button onClick={() => navigate("/")}>Contact</button>
+          <button onClick={() => navigate("/Projects/about")}>About</button>
+          <button onClick={() => navigate("/Projects/project")}>Projects</button>
+          <button onClick={() => navigate("/Projects")}>Contact</button>
         </div>
       </div>
       <div className={styles.contentContainer}>
